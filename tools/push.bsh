@@ -1,0 +1,8 @@
+#!/bin/bash
+# Sample Google Cloud Messaging push command.
+# 
+curl --header "Authorization: key=API-KEY" --header "Content-Type: application/json" https://android.googleapis.com/gcm/send -d "{\"registration_ids\":[\"regID\"],\"data\":{\"message\":\"できました\"}}"
+
+#sleep 30
+
+#curl --header "Authorization: key=API-KEY" --header "Content-Type: application/json" https://android.googleapis.com/gcm/send -d "{\"registration_ids\":[\"regID\"],\"data\":{\"message\":\"ざっとこんなもんです。\"}}"
